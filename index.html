@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Colour Visualizer - Paint Your Walls Online</title>
+    <meta name="description" content="Aqua Paints Colour Visualizer. Upload your room picture, paint walls with smooth brush and realistic texture, and explore over 290 authentic Aqua Paints colors.">
+    <meta name="theme-color" content="#0f766e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Aqua Visualizer">
+    <link rel="icon" href="assets/icons/pwa-icon-192.png" sizes="192x192" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css?v=20261027">
+    <style>
+        .section-header-center {
+            text-align: center;
+            max-width: 680px;
+            margin: 0 auto 36px;
+        }
+        .section-header-center h2 {
+            font-family: var(--font-heading);
+            font-size: clamp(1.8rem, 2.6vw, 2.5rem);
+            font-weight: 800;
+            color: var(--text-heading);
+            margin: 0 0 10px;
+        }
+        .section-header-center p {
+            color: var(--text-muted);
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+        .steps-section {
+            background: #ffffff;
+            border-radius: var(--radius-xl);
+            padding: 48px;
+            margin: 48px auto;
+            border: 1px solid var(--border-subtle);
+            box-shadow: var(--shadow-sm);
+        }
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            margin-top: 36px;
+        }
+        .step-card {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        .step-num-badge {
+            width: 42px;
+            height: 42px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #0f766e, #14b8a6);
+            color: #ffffff;
+            font-family: var(--font-heading);
+            font-size: 1.15rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(15, 118, 110, 0.25);
+        }
+        .step-card h4 {
+            font-family: var(--font-heading);
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--text-heading);
+            margin: 0 0 10px;
+        }
+        .step-card p {
+            color: var(--text-body);
+            font-size: 0.94rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+        @media (max-width: 900px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                padding: 28px;
+            }
+            .steps-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="home-page" data-visualizer-type="">
+
+<!-- Top Brand Announcement Ticker (Asian Paints Inspired) -->
+<div class="top-brand-ticker">
+    <span><span class="ticker-tag">AQUA PAINTS</span> <strong>দেশের রঙে রাঙাই দেশ</strong> &bull; Explore 290+ Certified Shades with Live Room Simulation</span>
+    <a href="custom-painter.html">Try Custom Wall Painter &rarr;</a>
+</div>
+
+<!-- Main Header with Authentic Aqua Paints Logo -->
+<header class="site-header">
+    <div class="container">
+        <a class="site-brand" href="index.html" title="Aqua Colour Visualizer Home">
+            <div class="brand-logo-badge">
+                <div class="brand-letters-row">
+                    <span class="brand-letter-a1">a</span>
+                    <span class="brand-letter-q">q</span>
+                    <span class="brand-letter-u">u</span>
+                    <span class="brand-letter-a2">a</span>
+                </div>
+                <div class="brand-word-paints">PAINTS</div>
+            </div>
+            <div class="brand-title-group">
+                <div class="brand-title-text">
+                    AQUA VISUALIZER
+                    <span class="brand-tag-studio">STUDIO</span>
+                </div>
+                <div class="brand-slogan-bengali">দেশের রঙে রাঙাই দেশ</div>
+            </div>
+        </a>
+
+        <label for="siteMenuToggle" class="site-menu-button" aria-label="Open menu" role="button" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <input type="checkbox" id="siteMenuToggle" class="site-menu-toggle" aria-hidden="true">
+        <label for="siteMenuToggle" class="site-menu-backdrop" aria-hidden="true"></label>
+
+        <nav class="site-nav-drawer">
+            <a href="index.html" class="active">Home</a>
+            <a href="custom-painter.html" class="nav-upload-paint">
+                🎨 Upload & Paint <span class="badge-pulse">NEW</span>
+            </a>
+            <a href="visualizer.html">Visualizer Hub</a>
+            <a href="interior.html">Interior Studio</a>
+            <a href="exterior.html">Exterior Studio</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- Hero Section with Interactive Live Room Previewer -->
+    <section class="hero-shell">
+        <div class="container hero-grid">
+            <div class="hero-copy">
+                <div class="hero-brand-callout">
+                    <span>✨ Official Aqua Paints Visualizer Studio</span>
+                </div>
+                <h2>সিদ্ধান্ত নেওয়ার আগে নিজের ঘরের দেয়ালে পেইন্টের রং কেমন দেখাবে তা দেখুন।</h2>
+                <p>
+                    আপনার নিজের রুমের ছবি আপলোড করে দেয়াল পেইন্ট করুন অথবা আমাদের প্রস্তুত করা লিভিং রুম, বেডরুম ও এক্সটেরিয়র স্পেসে ২৯০+ অথেনটিক একুয়া পেইন্টসের শেড রিয়েল-টাইমে টেস্ট করুন।
+                </p>
+
+                <div class="hero-actions">
+                    <a class="btn btn-primary btn-painter-hero" href="custom-painter.html">
+                        🎨 Upload Picture & Paint <span class="badge-pulse">NEW</span>
+                    </a>
+                    <a class="btn btn-secondary btn-interior" href="interior.html">
+                        🏠 Interior Studio
+                    </a>
+                    <a class="btn btn-secondary btn-exterior" href="exterior.html">
+                        🏡 Exterior Studio
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-card" style="border-left: 3px solid #ea580c;">
+                        <strong style="color: #ea580c;">Upload & Paint</strong>
+                        <span>ঘরের ছবি তুলে স্মুথ ব্রাশ ও স্মার্ট কর্নার ফিল দিয়ে টেস্ট করুন</span>
+                    </div>
+                    <div class="stat-card" style="border-left: 3px solid #0f766e;">
+                        <strong style="color: #0f766e;">Interior Rooms</strong>
+                        <span>ইন্ডোর শেড কার্ড, বেডরুম ও লিভিং রুমের প্রস্তুত প্রিভিউ</span>
+                    </div>
+                    <div class="stat-card" style="border-left: 3px solid #0284c7;">
+                        <strong style="color: #0284c7;">Exterior Walls</strong>
+                        <span>আউটডোর শেড কার্ড, প্লাটীনা ও ডিফেন্ডার এক্সটেরিয়র প্রিভিউ</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Interactive Live Room Showcase (Asian Paints signature experience) -->
+            <div class="hero-panel">
+                <div class="hero-room-showcase">
+                    <img id="heroRoomImg" src="assets/rooms/living-room.jpg" alt="Aqua Paints Modern Living Room Simulation">
+                    <div id="heroRoomOverlay" class="hero-room-overlay" style="position: absolute; inset: 0; background-color: rgb(20, 184, 166); mix-blend-mode: multiply; opacity: 0.78; -webkit-mask-image: url('assets/rooms/living-room-mask.png'); mask-image: url('assets/rooms/living-room-mask.png'); -webkit-mask-size: cover; mask-size: cover; -webkit-mask-position: center; mask-position: center; pointer-events: none;"></div>
+                    <div class="hero-room-badge">
+                        <span class="dot-live"></span>
+                        <span>Interactive Wall Preview</span>
+                    </div>
+                </div>
+
+                <div class="hero-preview-footer">
+                    <div class="hero-swatch-picker-label">
+                        <span>Click to preview shade:</span>
+                        <span id="heroActiveCode" class="hero-shade-code">AS14</span>
+                    </div>
+
+                    <div class="hero-swatches-row">
+                        <!-- Swatch 1: Aqua Lagoon (AS14) -->
+                        <button class="hero-swatch-btn active" 
+                                style="background-color: rgb(20, 184, 166);" 
+                                data-color="rgb(20, 184, 166)" 
+                                data-name="Aqua Lagoon" 
+                                data-code="AS14" 
+                                data-family="Interior (Muslin)" 
+                                title="Aqua Lagoon (AS14)"></button>
+
+                        <!-- Swatch 2: Warm Ochre (AS25) -->
+                        <button class="hero-swatch-btn" 
+                                style="background-color: rgb(234, 88, 12);" 
+                                data-color="rgb(234, 88, 12)" 
+                                data-name="Warm Ochre" 
+                                data-code="AS25" 
+                                data-family="Interior (Superstar)" 
+                                title="Warm Ochre (AS25)"></button>
+
+                        <!-- Swatch 3: Emerald Whisper (AS21) -->
+                        <button class="hero-swatch-btn" 
+                                style="background-color: rgb(15, 118, 110);" 
+                                data-color="rgb(15, 118, 110)" 
+                                data-name="Emerald Whisper" 
+                                data-code="AS21" 
+                                data-family="Interior (Muslin)" 
+                                title="Emerald Whisper (AS21)"></button>
+
+                        <!-- Swatch 4: Royal Ocean Blue (AS42) -->
+                        <button class="hero-swatch-btn" 
+                                style="background-color: rgb(37, 99, 235);" 
+                                data-color="rgb(37, 99, 235)" 
+                                data-name="Royal Ocean Blue" 
+                                data-code="AS42" 
+                                data-family="Interior (Muslin)" 
+                                title="Royal Ocean Blue (AS42)"></button>
+
+                        <!-- Swatch 5: Golden Honey (AS11) -->
+                        <button class="hero-swatch-btn" 
+                                style="background-color: rgb(245, 158, 11);" 
+                                data-color="rgb(245, 158, 11)" 
+                                data-name="Golden Honey" 
+                                data-code="AS11" 
+                                data-family="Interior (Distemper)" 
+                                title="Golden Honey (AS11)"></button>
+                    </div>
+
+                    <div class="hero-active-shade-info">
+                        <div>
+                            <span id="heroActiveName" class="hero-shade-name">Aqua Lagoon</span>
+                            <div id="heroActiveFamily" style="font-size: 0.76rem; color: #64748b; margin-top: 2px;">Family: Interior (Muslin)</div>
+                        </div>
+                        <a href="interior.html" style="font-size: 0.85rem; font-weight: 700; color: #0f766e; text-decoration: none;">
+                            Open in Studio &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 3-Step Visualizer Process (Asian Paints Visual Guide) -->
+    <section class="container">
+        <div class="steps-section">
+            <div class="section-header-center" style="margin-bottom: 10px;">
+                <span class="page-kicker">Simple 3-Step Process</span>
+                <h2>কীভাবে একুয়া কালার ভিজ্যুয়ালাইজার ব্যবহার করবেন?</h2>
+                <p>সহজ তিনটি ধাপে আপনার পছন্দের শেড নির্বাচন করুন এবং দেয়ালে কেমন দেখাবে তা আগেভাগেই দেখে নিন।</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-num-badge">1</div>
+                    <h4>রুমের ছবি আপলোড বা নির্বাচন করুন</h4>
+                    <p>নিজের বেডরুম, লিভিং রুমের ছবি তুলুন বা আপলোড করুন অথবা আমাদের প্রস্তুত করা পেশাদার রুম টেমপ্লেট নির্বাচন করুন।</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num-badge">2</div>
+                    <h4>২৯০+ অথেনটিক শেড থেকে কালার বাছুন</h4>
+                    <p>একুয়া পেইন্টসের মাসলিন, সুপারস্টার, ন্যাশনাল ডিসটেম্পার ও এক্সটেরিয়র প্লাটীনা ও ডিফেন্ডার ক্যাটালগ থেকে শেড নির্বাচন করুন।</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num-badge">3</div>
+                    <h4>দেয়ালে পেইন্ট করে রেসিপি ডাউনলোড করুন</h4>
+                    <p>স্মুথ ব্রাশ ও স্মার্ট কর্নার ফিল দিয়ে দেয়ালে কালার ইফেক্ট দেখুন এবং অফিসিয়াল কালার কোডসহ প্রিভিউ কার্ড ডাউনলোড করুন।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visualizer Feature Grid -->
+    <section class="container feature-grid">
+        <article class="feature-card" style="border-top: 3.5px solid #ea580c;">
+            <div class="feature-card-icon" style="color: #ea580c; background: rgba(234, 88, 12, 0.08);">🎨</div>
+            <span class="page-kicker" style="color: #ea580c; background: rgba(234, 88, 12, 0.1); border-color: rgba(234, 88, 12, 0.2);">Interactive Feature</span>
+            <h3>Upload Picture & Paint</h3>
+            <p>আপনার ঘরের বাস্তব ছবি আপলোড করুন। স্মুথ ব্রাশ, সফট ইরেজার ও স্মার্ট ওয়াল ফিল দিয়ে রিয়েল-টাইমে দেয়ালে রঙ করে ভিজ্যুয়ালাইজ করুন।</p>
+            <a class="feature-link" href="custom-painter.html" style="color: #ea580c;">Launch Custom Painter &rarr;</a>
+        </article>
+
+        <article class="feature-card" style="border-top: 3.5px solid #0f766e;">
+            <div class="feature-card-icon" style="color: #0f766e; background: rgba(15, 118, 110, 0.08);">🏠</div>
+            <span class="page-kicker">Interior Studio</span>
+            <h3>Indoor Rooms & Living Spaces</h3>
+            <p>লিভিং রুম, বেডরুম ও বাচ্চাদের ঘরের জন্য সাজানো প্রস্তুত দৃশ্য। মাসলিন ও সুপারস্টার প্রিমিয়াম শেড কার্ডের সাহায্যে কালার ম্যাচ করুন।</p>
+            <a class="feature-link" href="interior.html">Explore Interior Studio &rarr;</a>
+        </article>
+
+        <article class="feature-card" style="border-top: 3.5px solid #0284c7;">
+            <div class="feature-card-icon" style="color: #0284c7; background: rgba(2, 132, 199, 0.08);">🏡</div>
+            <span class="page-kicker" style="color: #0284c7; background: rgba(2, 132, 199, 0.1); border-color: rgba(2, 132, 199, 0.2);">Exterior Studio</span>
+            <h3>Outdoor Villa & Weather Guard</h3>
+            <p>বাহিরের দেয়ালের জন্য এক্সটেরিয়র প্লাটীনা, ডিফেন্ডার ও আউটারশিল্ড কালার রেঞ্জ টেস্ট করে প্রফেশনাল আউটডোর ভিউ নিশ্চিত করুন।</p>
+            <a class="feature-link" href="exterior.html" style="color: #0284c7;">Explore Exterior Studio &rarr;</a>
+        </article>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-brand-row">
+            <div class="brand-logo-badge" style="background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.15);">
+                <div class="brand-letters-row">
+                    <span class="brand-letter-a1">a</span>
+                    <span class="brand-letter-q">q</span>
+                    <span class="brand-letter-u">u</span>
+                    <span class="brand-letter-a2">a</span>
+                </div>
+                <div class="brand-word-paints" style="color: #cbd5e1;">PAINTS</div>
+            </div>
+            <span class="footer-slogan">দেশের রঙে রাঙাই দেশ</span>
+        </div>
+        
+        <p class="footer-disclaimer">
+            Digital colour swatches are shown for representation only. Lighting, device screens, and surface textures may alter physical appearance. Please consult physical Aqua Paints shade fandeck at your nearest authorized dealer before purchase.
+        </p>
+
+        <p class="footer-bottom-copy">
+            &copy; 2026 Aqua Paints. All rights reserved. &bull; Developed by Monwar Hossen &bull; Enhanced with Custom Wall Painter
+        </p>
+    </div>
+</footer>
+
+<script>
+    // Live Hero Room Interactive Previewer
+    document.addEventListener("DOMContentLoaded", function () {
+        const heroOverlay = document.getElementById("heroRoomOverlay");
+        const heroActiveName = document.getElementById("heroActiveName");
+        const heroActiveCode = document.getElementById("heroActiveCode");
+        const heroActiveFamily = document.getElementById("heroActiveFamily");
+        const swatchBtns = document.querySelectorAll(".hero-swatch-btn");
+
+        swatchBtns.forEach(btn => {
+            btn.addEventListener("click", function () {
+                swatchBtns.forEach(b => b.classList.remove("active"));
+                this.classList.add("active");
+
+                const color = this.getAttribute("data-color");
+                const name = this.getAttribute("data-name");
+                const code = this.getAttribute("data-code");
+                const family = this.getAttribute("data-family");
+
+                if (heroOverlay) {
+                    heroOverlay.style.backgroundColor = color;
+                    heroOverlay.style.opacity = '0.78';
+                    heroOverlay.style.webkitMaskImage = "url('assets/rooms/living-room-mask.png')";
+                    heroOverlay.style.maskImage = "url('assets/rooms/living-room-mask.png')";
+                }
+                if (heroActiveName) heroActiveName.textContent = name;
+                if (heroActiveCode) heroActiveCode.textContent = code;
+                if (heroActiveFamily) heroActiveFamily.textContent = `Family: ${family}`;
+            });
+        });
+    });
+</script>
+<script src="assets/js/app.js?v=20261027"></script>
+</body>
+</html>

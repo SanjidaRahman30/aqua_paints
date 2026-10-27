@@ -1,0 +1,2950 @@
+{
+  "families": [
+    "Exterior (Outersheild)",
+    "Exterior (Platina+Defender)",
+    "Interior (Muslin+Superstar)",
+    "Interior (National Distemper)"
+  ],
+  "colors": [
+    {
+      "id": "1",
+      "name": "Brilliant White",
+      "code": "AS01",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 240,
+      "g": 244,
+      "b": 240,
+      "hex": "#f0f4f0"
+    },
+    {
+      "id": "2",
+      "name": "Off White(Light)",
+      "code": "AS02",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 227,
+      "g": 217,
+      "b": 196,
+      "hex": "#e3d9c4"
+    },
+    {
+      "id": "3",
+      "name": "Off White",
+      "code": "AS03",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 228,
+      "g": 218,
+      "b": 189,
+      "hex": "#e4dabd"
+    },
+    {
+      "id": "4",
+      "name": "Snow White",
+      "code": "AS04",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 219,
+      "g": 236,
+      "b": 222,
+      "hex": "#dbecde"
+    },
+    {
+      "id": "5",
+      "name": "Milk Wash",
+      "code": "AS05",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 244,
+      "g": 238,
+      "b": 208,
+      "hex": "#f4eed0"
+    },
+    {
+      "id": "6",
+      "name": "Cream",
+      "code": "AS06",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 211,
+      "g": 189,
+      "b": 110,
+      "hex": "#d3bd6e"
+    },
+    {
+      "id": "7",
+      "name": "Arid Plain",
+      "code": "AS07",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 234,
+      "g": 227,
+      "b": 214,
+      "hex": "#eae3d6"
+    },
+    {
+      "id": "8",
+      "name": "Apple White",
+      "code": "AS08",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 242,
+      "g": 238,
+      "b": 209,
+      "hex": "#f2eed1"
+    },
+    {
+      "id": "9",
+      "name": "Ivory",
+      "code": "AS09",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 237,
+      "g": 205,
+      "b": 159,
+      "hex": "#edcd9f"
+    },
+    {
+      "id": "10",
+      "name": "Milk White",
+      "code": "AS10",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 228,
+      "g": 211,
+      "b": 178,
+      "hex": "#e4d3b2"
+    },
+    {
+      "id": "11",
+      "name": "Emperor",
+      "code": "AS11",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 220,
+      "g": 214,
+      "b": 183,
+      "hex": "#dcd6b7"
+    },
+    {
+      "id": "12",
+      "name": "Honey Suckle",
+      "code": "AS12",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 227,
+      "g": 208,
+      "b": 168,
+      "hex": "#e3d0a8"
+    },
+    {
+      "id": "13",
+      "name": "Summer Ice",
+      "code": "AS13",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 231,
+      "g": 235,
+      "b": 212,
+      "hex": "#e7ebd4"
+    },
+    {
+      "id": "14",
+      "name": "Aspiration",
+      "code": "AS14",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 240,
+      "g": 230,
+      "b": 207,
+      "hex": "#f0e6cf"
+    },
+    {
+      "id": "15",
+      "name": "Ivory Hue",
+      "code": "AS15",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 237,
+      "g": 205,
+      "b": 159,
+      "hex": "#edcd9f"
+    },
+    {
+      "id": "16",
+      "name": "Papaya Cream",
+      "code": "AS16",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 225,
+      "g": 233,
+      "b": 210,
+      "hex": "#e1e9d2"
+    },
+    {
+      "id": "17",
+      "name": "Alomnd Torte",
+      "code": "AS17",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 242,
+      "g": 235,
+      "b": 212,
+      "hex": "#f2ebd4"
+    },
+    {
+      "id": "18",
+      "name": "White Asparagus",
+      "code": "AS18",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 214,
+      "g": 223,
+      "b": 205,
+      "hex": "#d6dfcd"
+    },
+    {
+      "id": "19",
+      "name": "Quiet Sea",
+      "code": "AS19",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 222,
+      "g": 233,
+      "b": 220,
+      "hex": "#dee9dc"
+    },
+    {
+      "id": "20",
+      "name": "Calm Spirit",
+      "code": "AS20",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 225,
+      "g": 227,
+      "b": 217,
+      "hex": "#e1e3d9"
+    },
+    {
+      "id": "21",
+      "name": "Evening Breeze",
+      "code": "AS21",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 219,
+      "g": 214,
+      "b": 213,
+      "hex": "#dbd6d5"
+    },
+    {
+      "id": "22",
+      "name": "Cotton Field",
+      "code": "AS22",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 231,
+      "g": 220,
+      "b": 203,
+      "hex": "#e7dccb"
+    },
+    {
+      "id": "23",
+      "name": "Vanila Cream",
+      "code": "AS23",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 231,
+      "g": 223,
+      "b": 205,
+      "hex": "#e7dfcd"
+    },
+    {
+      "id": "24",
+      "name": "Early Day",
+      "code": "AS24",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 223,
+      "g": 223,
+      "b": 217,
+      "hex": "#dfdfd9"
+    },
+    {
+      "id": "25",
+      "name": "Glamour Yellow",
+      "code": "AS25",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 232,
+      "g": 209,
+      "b": 160,
+      "hex": "#e8d1a0"
+    },
+    {
+      "id": "26",
+      "name": "Lemon Tart",
+      "code": "AS26",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 243,
+      "g": 229,
+      "b": 143,
+      "hex": "#f3e58f"
+    },
+    {
+      "id": "27",
+      "name": "Lemon",
+      "code": "AS27",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 212,
+      "g": 166,
+      "b": 64,
+      "hex": "#d4a640"
+    },
+    {
+      "id": "28",
+      "name": "Lemon Yellow",
+      "code": "AS28",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 247,
+      "g": 209,
+      "b": 141,
+      "hex": "#f7d18d"
+    },
+    {
+      "id": "29",
+      "name": "Deep Orange",
+      "code": "AS29",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 209,
+      "g": 112,
+      "b": 88,
+      "hex": "#d17058"
+    },
+    {
+      "id": "30",
+      "name": "Day Lily",
+      "code": "AS30",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 233,
+      "g": 143,
+      "b": 91,
+      "hex": "#e98f5b"
+    },
+    {
+      "id": "31",
+      "name": "Jacobite",
+      "code": "AS31",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 141,
+      "g": 157,
+      "b": 99,
+      "hex": "#8d9d63"
+    },
+    {
+      "id": "32",
+      "name": "Meghna",
+      "code": "AS32",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 177,
+      "g": 220,
+      "b": 193,
+      "hex": "#b1dcc1"
+    },
+    {
+      "id": "33",
+      "name": "Summer Green",
+      "code": "AS33",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 211,
+      "g": 216,
+      "b": 170,
+      "hex": "#d3d8aa"
+    },
+    {
+      "id": "34",
+      "name": "Coral Green",
+      "code": "AS34",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 191,
+      "g": 212,
+      "b": 178,
+      "hex": "#bfd4b2"
+    },
+    {
+      "id": "35",
+      "name": "Crystal Green-N",
+      "code": "AS35",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 158,
+      "g": 206,
+      "b": 183,
+      "hex": "#9eceb7"
+    },
+    {
+      "id": "36",
+      "name": "Marsh Green",
+      "code": "AS36",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 115,
+      "g": 149,
+      "b": 112,
+      "hex": "#739570"
+    },
+    {
+      "id": "37",
+      "name": "Garden Green",
+      "code": "AS37",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 160,
+      "g": 202,
+      "b": 126,
+      "hex": "#a0ca7e"
+    },
+    {
+      "id": "38",
+      "name": "Aqua Green",
+      "code": "AS38",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 35,
+      "g": 162,
+      "b": 136,
+      "hex": "#23a288"
+    },
+    {
+      "id": "39",
+      "name": "Lemon Souffle",
+      "code": "AS39",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 198,
+      "g": 196,
+      "b": 70,
+      "hex": "#c6c446"
+    },
+    {
+      "id": "40",
+      "name": "Paste Rose",
+      "code": "AS40",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 175,
+      "g": 225,
+      "b": 196,
+      "hex": "#afe1c4"
+    },
+    {
+      "id": "41",
+      "name": "Seagrass Bay",
+      "code": "AS41",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 114,
+      "g": 211,
+      "b": 187,
+      "hex": "#72d3bb"
+    },
+    {
+      "id": "42",
+      "name": "Forest Green",
+      "code": "AS42",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 208,
+      "g": 222,
+      "b": 177,
+      "hex": "#d0deb1"
+    },
+    {
+      "id": "43",
+      "name": "Morning Dew",
+      "code": "AS43",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 190,
+      "g": 224,
+      "b": 159,
+      "hex": "#bee09f"
+    },
+    {
+      "id": "44",
+      "name": "Green Apple",
+      "code": "AS44",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 184,
+      "g": 189,
+      "b": 87,
+      "hex": "#b8bd57"
+    },
+    {
+      "id": "45",
+      "name": "Joy Green",
+      "code": "AS45",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 152,
+      "g": 182,
+      "b": 98,
+      "hex": "#98b662"
+    },
+    {
+      "id": "46",
+      "name": "Light Blue",
+      "code": "AS46",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 110,
+      "g": 168,
+      "b": 171,
+      "hex": "#6ea8ab"
+    },
+    {
+      "id": "47",
+      "name": "Coral Reef",
+      "code": "AS47",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 181,
+      "g": 215,
+      "b": 202,
+      "hex": "#b5d7ca"
+    },
+    {
+      "id": "48",
+      "name": "New Blue",
+      "code": "AS48",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 152,
+      "g": 185,
+      "b": 191,
+      "hex": "#98b9bf"
+    },
+    {
+      "id": "49",
+      "name": "Sky Blue",
+      "code": "AS49",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 189,
+      "g": 212,
+      "b": 199,
+      "hex": "#bdd4c7"
+    },
+    {
+      "id": "50",
+      "name": "Satin Blue",
+      "code": "AS50",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 133,
+      "g": 188,
+      "b": 197,
+      "hex": "#85bcc5"
+    },
+    {
+      "id": "51",
+      "name": "Ocean Blue",
+      "code": "AS51",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 176,
+      "g": 217,
+      "b": 225,
+      "hex": "#b0d9e1"
+    },
+    {
+      "id": "52",
+      "name": "Ice Blue",
+      "code": "AS52",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 165,
+      "g": 201,
+      "b": 201,
+      "hex": "#a5c9c9"
+    },
+    {
+      "id": "53",
+      "name": "New Blue-E",
+      "code": "AS53",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 113,
+      "g": 171,
+      "b": 196,
+      "hex": "#71abc4"
+    },
+    {
+      "id": "54",
+      "name": "Blue Flame",
+      "code": "AS54",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 152,
+      "g": 180,
+      "b": 198,
+      "hex": "#98b4c6"
+    },
+    {
+      "id": "55",
+      "name": "Sunlight Blue",
+      "code": "AS55",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 54,
+      "g": 180,
+      "b": 204,
+      "hex": "#36b4cc"
+    },
+    {
+      "id": "56",
+      "name": "Classical Blue-N",
+      "code": "AS56",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 39,
+      "g": 168,
+      "b": 178,
+      "hex": "#27a8b2"
+    },
+    {
+      "id": "57",
+      "name": "Rigel",
+      "code": "AS57",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 0,
+      "g": 161,
+      "b": 188,
+      "hex": "#00a1bc"
+    },
+    {
+      "id": "58",
+      "name": "Flamingo",
+      "code": "AS58",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 223,
+      "g": 170,
+      "b": 178,
+      "hex": "#dfaab2"
+    },
+    {
+      "id": "59",
+      "name": "Pink Lily",
+      "code": "AS59",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 230,
+      "g": 206,
+      "b": 195,
+      "hex": "#e6cec3"
+    },
+    {
+      "id": "60",
+      "name": "Angel",
+      "code": "AS60",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 237,
+      "g": 219,
+      "b": 217,
+      "hex": "#eddbd9"
+    },
+    {
+      "id": "61",
+      "name": "Memory",
+      "code": "AS61",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 202,
+      "g": 194,
+      "b": 191,
+      "hex": "#cac2bf"
+    },
+    {
+      "id": "62",
+      "name": "Vanila",
+      "code": "AS62",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 235,
+      "g": 231,
+      "b": 217,
+      "hex": "#ebe7d9"
+    },
+    {
+      "id": "63",
+      "name": "Chiffon",
+      "code": "AS63",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 215,
+      "g": 207,
+      "b": 203,
+      "hex": "#d7cfcb"
+    },
+    {
+      "id": "64",
+      "name": "Pastel Hue",
+      "code": "AS64",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 228,
+      "g": 211,
+      "b": 190,
+      "hex": "#e4d3be"
+    },
+    {
+      "id": "65",
+      "name": "Lilac Mist",
+      "code": "AS65",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 201,
+      "g": 191,
+      "b": 186,
+      "hex": "#c9bfba"
+    },
+    {
+      "id": "66",
+      "name": "Tile Red",
+      "code": "AS66",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 165,
+      "g": 114,
+      "b": 106,
+      "hex": "#a5726a"
+    },
+    {
+      "id": "67",
+      "name": "Rebecca",
+      "code": "AS67",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 206,
+      "g": 169,
+      "b": 152,
+      "hex": "#cea998"
+    },
+    {
+      "id": "68",
+      "name": "Falsetto",
+      "code": "AS68",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 204,
+      "g": 122,
+      "b": 158,
+      "hex": "#cc7a9e"
+    },
+    {
+      "id": "69",
+      "name": "Pink Plum",
+      "code": "AS69",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 227,
+      "g": 197,
+      "b": 190,
+      "hex": "#e3c5be"
+    },
+    {
+      "id": "70",
+      "name": "Deep Pink",
+      "code": "AS70",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 210,
+      "g": 145,
+      "b": 150,
+      "hex": "#d29196"
+    },
+    {
+      "id": "71",
+      "name": "Coral",
+      "code": "AS71",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 218,
+      "g": 124,
+      "b": 107,
+      "hex": "#da7c6b"
+    },
+    {
+      "id": "72",
+      "name": "Sweet Pink",
+      "code": "AS72",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 235,
+      "g": 161,
+      "b": 177,
+      "hex": "#eba1b1"
+    },
+    {
+      "id": "73",
+      "name": "Bonofire",
+      "code": "AS73",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 231,
+      "g": 118,
+      "b": 72,
+      "hex": "#e77648"
+    },
+    {
+      "id": "74",
+      "name": "Romance",
+      "code": "AS74",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 215,
+      "g": 175,
+      "b": 167,
+      "hex": "#d7afa7"
+    },
+    {
+      "id": "75",
+      "name": "Signal Red",
+      "code": "AS75",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 196,
+      "g": 30,
+      "b": 58,
+      "hex": "#c41e3a"
+    },
+    {
+      "id": "76",
+      "name": "Gypsy Queen",
+      "code": "AS76",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 199,
+      "g": 196,
+      "b": 196,
+      "hex": "#c7c4c4"
+    },
+    {
+      "id": "77",
+      "name": "Alpine",
+      "code": "AS77",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 205,
+      "g": 185,
+      "b": 190,
+      "hex": "#cdb9be"
+    },
+    {
+      "id": "78",
+      "name": "Olympia",
+      "code": "AS78",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 142,
+      "g": 141,
+      "b": 178,
+      "hex": "#8e8db2"
+    },
+    {
+      "id": "79",
+      "name": "Orchid",
+      "code": "AS79",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 168,
+      "g": 139,
+      "b": 174,
+      "hex": "#a88bae"
+    },
+    {
+      "id": "80",
+      "name": "Florentine",
+      "code": "AS80",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 193,
+      "g": 151,
+      "b": 187,
+      "hex": "#c197bb"
+    },
+    {
+      "id": "81",
+      "name": "Dream Catcher",
+      "code": "AS81",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 167,
+      "g": 146,
+      "b": 186,
+      "hex": "#a792ba"
+    },
+    {
+      "id": "82",
+      "name": "French Grey",
+      "code": "AS82",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 178,
+      "g": 186,
+      "b": 175,
+      "hex": "#b2baaf"
+    },
+    {
+      "id": "83",
+      "name": "Snow Goose",
+      "code": "AS83",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 185,
+      "g": 192,
+      "b": 180,
+      "hex": "#b9c0b4"
+    },
+    {
+      "id": "84",
+      "name": "Dolomite",
+      "code": "AS84",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 178,
+      "g": 186,
+      "b": 180,
+      "hex": "#b2bab4"
+    },
+    {
+      "id": "85",
+      "name": "Silver Lining",
+      "code": "AS85",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 159,
+      "g": 164,
+      "b": 156,
+      "hex": "#9fa49c"
+    },
+    {
+      "id": "86",
+      "name": "Smokey",
+      "code": "AS86",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 132,
+      "g": 135,
+      "b": 132,
+      "hex": "#848784"
+    },
+    {
+      "id": "87",
+      "name": "Light Grey",
+      "code": "AS87",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 145,
+      "g": 157,
+      "b": 150,
+      "hex": "#919d96"
+    },
+    {
+      "id": "88",
+      "name": "Steel Grey",
+      "code": "AS88",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 156,
+      "g": 163,
+      "b": 159,
+      "hex": "#9ca39f"
+    },
+    {
+      "id": "89",
+      "name": "Armour",
+      "code": "AS89",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 167,
+      "g": 171,
+      "b": 164,
+      "hex": "#a7aba4"
+    },
+    {
+      "id": "90",
+      "name": "Dove Grey",
+      "code": "AS90",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 202,
+      "g": 205,
+      "b": 195,
+      "hex": "#cacdc3"
+    },
+    {
+      "id": "91",
+      "name": "Misty",
+      "code": "AS91",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 188,
+      "g": 179,
+      "b": 158,
+      "hex": "#bcb39e"
+    },
+    {
+      "id": "92",
+      "name": "Wood Smoke",
+      "code": "AS92",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 202,
+      "g": 190,
+      "b": 154,
+      "hex": "#cabe9a"
+    },
+    {
+      "id": "93",
+      "name": "Fawn",
+      "code": "AS93",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 201,
+      "g": 196,
+      "b": 175,
+      "hex": "#c9c4af"
+    },
+    {
+      "id": "94",
+      "name": "Whisper Lime",
+      "code": "AS94",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 200,
+      "g": 196,
+      "b": 165,
+      "hex": "#c8c4a5"
+    },
+    {
+      "id": "95",
+      "name": "Blossom",
+      "code": "AS95",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 212,
+      "g": 192,
+      "b": 164,
+      "hex": "#d4c0a4"
+    },
+    {
+      "id": "96",
+      "name": "Chamoise",
+      "code": "AS96",
+      "family": "Interior (Muslin+Superstar)",
+      "r": 187,
+      "g": 158,
+      "b": 126,
+      "hex": "#bb9e7e"
+    },
+    {
+      "id": "241",
+      "name": "Brilliant White",
+      "code": "AN01",
+      "family": "Interior (National Distemper)",
+      "r": 240,
+      "g": 244,
+      "b": 240,
+      "hex": "#f0f4f0"
+    },
+    {
+      "id": "242",
+      "name": "Off White(Light)",
+      "code": "AN02",
+      "family": "Interior (National Distemper)",
+      "r": 227,
+      "g": 217,
+      "b": 196,
+      "hex": "#e3d9c4"
+    },
+    {
+      "id": "243",
+      "name": "OFF White",
+      "code": "AN03",
+      "family": "Interior (National Distemper)",
+      "r": 228,
+      "g": 218,
+      "b": 189,
+      "hex": "#e4dabd"
+    },
+    {
+      "id": "244",
+      "name": "Apple White",
+      "code": "AN04",
+      "family": "Interior (National Distemper)",
+      "r": 241,
+      "g": 236,
+      "b": 214,
+      "hex": "#f1ecd6"
+    },
+    {
+      "id": "245",
+      "name": "Cream",
+      "code": "AN05",
+      "family": "Interior (National Distemper)",
+      "r": 216,
+      "g": 194,
+      "b": 151,
+      "hex": "#d8c297"
+    },
+    {
+      "id": "246",
+      "name": "Milk White",
+      "code": "AN06",
+      "family": "Interior (National Distemper)",
+      "r": 231,
+      "g": 217,
+      "b": 184,
+      "hex": "#e7d9b8"
+    },
+    {
+      "id": "247",
+      "name": "Saroj",
+      "code": "AN07",
+      "family": "Interior (National Distemper)",
+      "r": 233,
+      "g": 208,
+      "b": 166,
+      "hex": "#e9d0a6"
+    },
+    {
+      "id": "248",
+      "name": "Shukla",
+      "code": "AN08",
+      "family": "Interior (National Distemper)",
+      "r": 225,
+      "g": 219,
+      "b": 190,
+      "hex": "#e1dbbe"
+    },
+    {
+      "id": "249",
+      "name": "Whisper Lime",
+      "code": "AN09",
+      "family": "Interior (National Distemper)",
+      "r": 200,
+      "g": 196,
+      "b": 165,
+      "hex": "#c8c4a5"
+    },
+    {
+      "id": "250",
+      "name": "Blossom",
+      "code": "AN10",
+      "family": "Interior (National Distemper)",
+      "r": 212,
+      "g": 192,
+      "b": 164,
+      "hex": "#d4c0a4"
+    },
+    {
+      "id": "251",
+      "name": "Fawn",
+      "code": "AN11",
+      "family": "Interior (National Distemper)",
+      "r": 201,
+      "g": 196,
+      "b": 175,
+      "hex": "#c9c4af"
+    },
+    {
+      "id": "252",
+      "name": "Coffee",
+      "code": "AN12",
+      "family": "Interior (National Distemper)",
+      "r": 190,
+      "g": 163,
+      "b": 128,
+      "hex": "#bea380"
+    },
+    {
+      "id": "253",
+      "name": "Godhuli",
+      "code": "AN13",
+      "family": "Interior (National Distemper)",
+      "r": 208,
+      "g": 174,
+      "b": 144,
+      "hex": "#d0ae90"
+    },
+    {
+      "id": "254",
+      "name": "Lemon Yellow",
+      "code": "AN14",
+      "family": "Interior (National Distemper)",
+      "r": 241,
+      "g": 207,
+      "b": 116,
+      "hex": "#f1cf74"
+    },
+    {
+      "id": "255",
+      "name": "Lemon Tart",
+      "code": "AN15",
+      "family": "Interior (National Distemper)",
+      "r": 244,
+      "g": 229,
+      "b": 141,
+      "hex": "#f4e58d"
+    },
+    {
+      "id": "256",
+      "name": "Ocean Blue",
+      "code": "AN16",
+      "family": "Interior (National Distemper)",
+      "r": 176,
+      "g": 217,
+      "b": 225,
+      "hex": "#b0d9e1"
+    },
+    {
+      "id": "257",
+      "name": "Light Blue",
+      "code": "AN17",
+      "family": "Interior (National Distemper)",
+      "r": 110,
+      "g": 168,
+      "b": 171,
+      "hex": "#6ea8ab"
+    },
+    {
+      "id": "258",
+      "name": "Sky Blue",
+      "code": "AN18",
+      "family": "Interior (National Distemper)",
+      "r": 189,
+      "g": 212,
+      "b": 199,
+      "hex": "#bdd4c7"
+    },
+    {
+      "id": "259",
+      "name": "Sunlight Blue",
+      "code": "AN19",
+      "family": "Interior (National Distemper)",
+      "r": 32,
+      "g": 180,
+      "b": 204,
+      "hex": "#20b4cc"
+    },
+    {
+      "id": "260",
+      "name": "Ice Blue",
+      "code": "AN20",
+      "family": "Interior (National Distemper)",
+      "r": 165,
+      "g": 201,
+      "b": 201,
+      "hex": "#a5c9c9"
+    },
+    {
+      "id": "261",
+      "name": "New Blue",
+      "code": "AN21",
+      "family": "Interior (National Distemper)",
+      "r": 152,
+      "g": 185,
+      "b": 191,
+      "hex": "#98b9bf"
+    },
+    {
+      "id": "262",
+      "name": "Meghla",
+      "code": "AN22",
+      "family": "Interior (National Distemper)",
+      "r": 170,
+      "g": 191,
+      "b": 193,
+      "hex": "#aabfc1"
+    },
+    {
+      "id": "263",
+      "name": "Meghna",
+      "code": "AN23",
+      "family": "Interior (National Distemper)",
+      "r": 169,
+      "g": 212,
+      "b": 185,
+      "hex": "#a9d4b9"
+    },
+    {
+      "id": "264",
+      "name": "Crystal Green",
+      "code": "AN24",
+      "family": "Interior (National Distemper)",
+      "r": 144,
+      "g": 202,
+      "b": 178,
+      "hex": "#90cab2"
+    },
+    {
+      "id": "265",
+      "name": "Crystal Green N",
+      "code": "AN25",
+      "family": "Interior (National Distemper)",
+      "r": 166,
+      "g": 197,
+      "b": 164,
+      "hex": "#a6c5a4"
+    },
+    {
+      "id": "266",
+      "name": "Adam Green",
+      "code": "AN26",
+      "family": "Interior (National Distemper)",
+      "r": 182,
+      "g": 196,
+      "b": 160,
+      "hex": "#b6c4a0"
+    },
+    {
+      "id": "267",
+      "name": "Kaptai Green",
+      "code": "AN27",
+      "family": "Interior (National Distemper)",
+      "r": 169,
+      "g": 204,
+      "b": 156,
+      "hex": "#a9cc9c"
+    },
+    {
+      "id": "268",
+      "name": "Morning Dew",
+      "code": "AN28",
+      "family": "Interior (National Distemper)",
+      "r": 190,
+      "g": 224,
+      "b": 159,
+      "hex": "#bee09f"
+    },
+    {
+      "id": "269",
+      "name": "Garden Green",
+      "code": "AN29",
+      "family": "Interior (National Distemper)",
+      "r": 160,
+      "g": 202,
+      "b": 126,
+      "hex": "#a0ca7e"
+    },
+    {
+      "id": "270",
+      "name": "Lush Lawn",
+      "code": "AN30",
+      "family": "Interior (National Distemper)",
+      "r": 149,
+      "g": 166,
+      "b": 88,
+      "hex": "#95a658"
+    },
+    {
+      "id": "271",
+      "name": "Jacobite",
+      "code": "AN31",
+      "family": "Interior (National Distemper)",
+      "r": 141,
+      "g": 157,
+      "b": 99,
+      "hex": "#8d9d63"
+    },
+    {
+      "id": "272",
+      "name": "Roussoue",
+      "code": "AN32",
+      "family": "Interior (National Distemper)",
+      "r": 144,
+      "g": 178,
+      "b": 116,
+      "hex": "#90b274"
+    },
+    {
+      "id": "273",
+      "name": "Green Apple",
+      "code": "AN33",
+      "family": "Interior (National Distemper)",
+      "r": 184,
+      "g": 189,
+      "b": 87,
+      "hex": "#b8bd57"
+    },
+    {
+      "id": "274",
+      "name": "Nebula",
+      "code": "AN34",
+      "family": "Interior (National Distemper)",
+      "r": 198,
+      "g": 212,
+      "b": 156,
+      "hex": "#c6d49c"
+    },
+    {
+      "id": "275",
+      "name": "Bithika",
+      "code": "AN35",
+      "family": "Interior (National Distemper)",
+      "r": 167,
+      "g": 193,
+      "b": 160,
+      "hex": "#a7c1a0"
+    },
+    {
+      "id": "276",
+      "name": "Fairy Pink",
+      "code": "AN36",
+      "family": "Interior (National Distemper)",
+      "r": 223,
+      "g": 182,
+      "b": 184,
+      "hex": "#dfb6b8"
+    },
+    {
+      "id": "277",
+      "name": "Flamingo",
+      "code": "AN37",
+      "family": "Interior (National Distemper)",
+      "r": 223,
+      "g": 170,
+      "b": 178,
+      "hex": "#dfaab2"
+    },
+    {
+      "id": "278",
+      "name": "Rebecca",
+      "code": "AN38",
+      "family": "Interior (National Distemper)",
+      "r": 206,
+      "g": 162,
+      "b": 155,
+      "hex": "#cea29b"
+    },
+    {
+      "id": "279",
+      "name": "Rose Pink",
+      "code": "AN39",
+      "family": "Interior (National Distemper)",
+      "r": 211,
+      "g": 153,
+      "b": 149,
+      "hex": "#d39995"
+    },
+    {
+      "id": "280",
+      "name": "Sweet Pink",
+      "code": "AN40",
+      "family": "Interior (National Distemper)",
+      "r": 235,
+      "g": 161,
+      "b": 177,
+      "hex": "#eba1b1"
+    },
+    {
+      "id": "281",
+      "name": "Ghazal",
+      "code": "AN41",
+      "family": "Interior (National Distemper)",
+      "r": 194,
+      "g": 191,
+      "b": 192,
+      "hex": "#c2bfc0"
+    },
+    {
+      "id": "282",
+      "name": "Florentine",
+      "code": "AN42",
+      "family": "Interior (National Distemper)",
+      "r": 193,
+      "g": 151,
+      "b": 187,
+      "hex": "#c197bb"
+    },
+    {
+      "id": "283",
+      "name": "Snow Goose",
+      "code": "AN43",
+      "family": "Interior (National Distemper)",
+      "r": 185,
+      "g": 192,
+      "b": 180,
+      "hex": "#b9c0b4"
+    },
+    {
+      "id": "284",
+      "name": "French Grey",
+      "code": "AN44",
+      "family": "Interior (National Distemper)",
+      "r": 178,
+      "g": 186,
+      "b": 175,
+      "hex": "#b2baaf"
+    },
+    {
+      "id": "285",
+      "name": "Dolomite",
+      "code": "AN45",
+      "family": "Interior (National Distemper)",
+      "r": 178,
+      "g": 186,
+      "b": 180,
+      "hex": "#b2bab4"
+    },
+    {
+      "id": "97",
+      "name": "Super White",
+      "code": "AD01",
+      "family": "Exterior (Platina+Defender)",
+      "r": 253,
+      "g": 253,
+      "b": 253,
+      "hex": "#fdfdfd"
+    },
+    {
+      "id": "98",
+      "name": "Brilliant White",
+      "code": "AD02",
+      "family": "Exterior (Platina+Defender)",
+      "r": 240,
+      "g": 244,
+      "b": 240,
+      "hex": "#f0f4f0"
+    },
+    {
+      "id": "99",
+      "name": "Off White(Light)",
+      "code": "AD03",
+      "family": "Exterior (Platina+Defender)",
+      "r": 227,
+      "g": 217,
+      "b": 196,
+      "hex": "#e3d9c4"
+    },
+    {
+      "id": "100",
+      "name": "Off White",
+      "code": "AD04",
+      "family": "Exterior (Platina+Defender)",
+      "r": 228,
+      "g": 218,
+      "b": 189,
+      "hex": "#e4dabd"
+    },
+    {
+      "id": "101",
+      "name": "Kashfool White",
+      "code": "AD05",
+      "family": "Exterior (Platina+Defender)",
+      "r": 235,
+      "g": 228,
+      "b": 208,
+      "hex": "#ebe4d0"
+    },
+    {
+      "id": "102",
+      "name": "Coral Shell",
+      "code": "AD06",
+      "family": "Exterior (Platina+Defender)",
+      "r": 228,
+      "g": 220,
+      "b": 194,
+      "hex": "#e4dcc2"
+    },
+    {
+      "id": "103",
+      "name": "Pearl",
+      "code": "AD07",
+      "family": "Exterior (Platina+Defender)",
+      "r": 225,
+      "g": 202,
+      "b": 174,
+      "hex": "#e1caae"
+    },
+    {
+      "id": "104",
+      "name": "Wild Orchid",
+      "code": "AD08",
+      "family": "Exterior (Platina+Defender)",
+      "r": 241,
+      "g": 232,
+      "b": 223,
+      "hex": "#f1e8df"
+    },
+    {
+      "id": "105",
+      "name": "Fawn",
+      "code": "AD09",
+      "family": "Exterior (Platina+Defender)",
+      "r": 201,
+      "g": 196,
+      "b": 175,
+      "hex": "#c9c4af"
+    },
+    {
+      "id": "106",
+      "name": "Misty",
+      "code": "AD10",
+      "family": "Exterior (Platina+Defender)",
+      "r": 188,
+      "g": 179,
+      "b": 158,
+      "hex": "#bcb39e"
+    },
+    {
+      "id": "107",
+      "name": "Pale Mashrom",
+      "code": "AD11",
+      "family": "Exterior (Platina+Defender)",
+      "r": 203,
+      "g": 190,
+      "b": 168,
+      "hex": "#cbbea8"
+    },
+    {
+      "id": "108",
+      "name": "Chamoise",
+      "code": "AD12",
+      "family": "Exterior (Platina+Defender)",
+      "r": 187,
+      "g": 158,
+      "b": 126,
+      "hex": "#bb9e7e"
+    },
+    {
+      "id": "109",
+      "name": "Magnolia",
+      "code": "AD13",
+      "family": "Exterior (Platina+Defender)",
+      "r": 238,
+      "g": 204,
+      "b": 167,
+      "hex": "#eecca7"
+    },
+    {
+      "id": "110",
+      "name": "Ivory",
+      "code": "AD14",
+      "family": "Exterior (Platina+Defender)",
+      "r": 237,
+      "g": 205,
+      "b": 159,
+      "hex": "#edcd9f"
+    },
+    {
+      "id": "111",
+      "name": "Cream",
+      "code": "AD15",
+      "family": "Exterior (Platina+Defender)",
+      "r": 211,
+      "g": 189,
+      "b": 110,
+      "hex": "#d3bd6e"
+    },
+    {
+      "id": "112",
+      "name": "Melba",
+      "code": "AD16",
+      "family": "Exterior (Platina+Defender)",
+      "r": 214,
+      "g": 177,
+      "b": 146,
+      "hex": "#d6b192"
+    },
+    {
+      "id": "113",
+      "name": "Old Gold",
+      "code": "AD17",
+      "family": "Exterior (Platina+Defender)",
+      "r": 184,
+      "g": 187,
+      "b": 108,
+      "hex": "#b8bb6c"
+    },
+    {
+      "id": "114",
+      "name": "Copper Leaf",
+      "code": "AD18",
+      "family": "Exterior (Platina+Defender)",
+      "r": 178,
+      "g": 113,
+      "b": 103,
+      "hex": "#b27167"
+    },
+    {
+      "id": "115",
+      "name": "Cumulus",
+      "code": "AD19",
+      "family": "Exterior (Platina+Defender)",
+      "r": 200,
+      "g": 200,
+      "b": 185,
+      "hex": "#c8c8b9"
+    },
+    {
+      "id": "116",
+      "name": "Sonargaon",
+      "code": "AD20",
+      "family": "Exterior (Platina+Defender)",
+      "r": 152,
+      "g": 142,
+      "b": 119,
+      "hex": "#988e77"
+    },
+    {
+      "id": "117",
+      "name": "Sweet Pink",
+      "code": "AD21",
+      "family": "Exterior (Platina+Defender)",
+      "r": 235,
+      "g": 161,
+      "b": 177,
+      "hex": "#eba1b1"
+    },
+    {
+      "id": "118",
+      "name": "Flamingo",
+      "code": "AD22",
+      "family": "Exterior (Platina+Defender)",
+      "r": 223,
+      "g": 170,
+      "b": 178,
+      "hex": "#dfaab2"
+    },
+    {
+      "id": "119",
+      "name": "Falsetto",
+      "code": "AD23",
+      "family": "Exterior (Platina+Defender)",
+      "r": 204,
+      "g": 122,
+      "b": 158,
+      "hex": "#cc7a9e"
+    },
+    {
+      "id": "120",
+      "name": "Taffy",
+      "code": "AD24",
+      "family": "Exterior (Platina+Defender)",
+      "r": 230,
+      "g": 117,
+      "b": 142,
+      "hex": "#e6758e"
+    },
+    {
+      "id": "121",
+      "name": "Queen Pink",
+      "code": "AD25",
+      "family": "Exterior (Platina+Defender)",
+      "r": 231,
+      "g": 116,
+      "b": 133,
+      "hex": "#e77485"
+    },
+    {
+      "id": "122",
+      "name": "New Falsetto",
+      "code": "AD26",
+      "family": "Exterior (Platina+Defender)",
+      "r": 182,
+      "g": 102,
+      "b": 122,
+      "hex": "#b6667a"
+    },
+    {
+      "id": "123",
+      "name": "Tangarine",
+      "code": "AD27",
+      "family": "Exterior (Platina+Defender)",
+      "r": 179,
+      "g": 124,
+      "b": 111,
+      "hex": "#b37c6f"
+    },
+    {
+      "id": "124",
+      "name": "Brandy",
+      "code": "AD28",
+      "family": "Exterior (Platina+Defender)",
+      "r": 176,
+      "g": 139,
+      "b": 108,
+      "hex": "#b08b6c"
+    },
+    {
+      "id": "125",
+      "name": "Rustic",
+      "code": "AD29",
+      "family": "Exterior (Platina+Defender)",
+      "r": 161,
+      "g": 110,
+      "b": 94,
+      "hex": "#a16e5e"
+    },
+    {
+      "id": "126",
+      "name": "Burnt Brick",
+      "code": "AD30",
+      "family": "Exterior (Platina+Defender)",
+      "r": 145,
+      "g": 96,
+      "b": 82,
+      "hex": "#916052"
+    },
+    {
+      "id": "127",
+      "name": "Terracotta",
+      "code": "AD31",
+      "family": "Exterior (Platina+Defender)",
+      "r": 156,
+      "g": 104,
+      "b": 86,
+      "hex": "#9c6856"
+    },
+    {
+      "id": "128",
+      "name": "Brick Red",
+      "code": "AD32",
+      "family": "Exterior (Platina+Defender)",
+      "r": 149,
+      "g": 95,
+      "b": 91,
+      "hex": "#955f5b"
+    },
+    {
+      "id": "129",
+      "name": "Black Coffee",
+      "code": "AD33",
+      "family": "Exterior (Platina+Defender)",
+      "r": 44,
+      "g": 12,
+      "b": 26,
+      "hex": "#2c0c1a"
+    },
+    {
+      "id": "130",
+      "name": "Signal Red",
+      "code": "AD34",
+      "family": "Exterior (Platina+Defender)",
+      "r": 196,
+      "g": 30,
+      "b": 58,
+      "hex": "#c41e3a"
+    },
+    {
+      "id": "131",
+      "name": "Ming Red",
+      "code": "AD35",
+      "family": "Exterior (Platina+Defender)",
+      "r": 152,
+      "g": 90,
+      "b": 82,
+      "hex": "#985a52"
+    },
+    {
+      "id": "132",
+      "name": "Ferrari Red",
+      "code": "AD36",
+      "family": "Exterior (Platina+Defender)",
+      "r": 196,
+      "g": 4,
+      "b": 18,
+      "hex": "#c40412"
+    },
+    {
+      "id": "133",
+      "name": "Flag Red",
+      "code": "AD37",
+      "family": "Exterior (Platina+Defender)",
+      "r": 196,
+      "g": 89,
+      "b": 82,
+      "hex": "#c45952"
+    },
+    {
+      "id": "134",
+      "name": "Sporty Yellow",
+      "code": "AD38",
+      "family": "Exterior (Platina+Defender)",
+      "r": 249,
+      "g": 197,
+      "b": 23,
+      "hex": "#f9c517"
+    },
+    {
+      "id": "135",
+      "name": "Orange Crush",
+      "code": "AD39",
+      "family": "Exterior (Platina+Defender)",
+      "r": 249,
+      "g": 170,
+      "b": 42,
+      "hex": "#f9aa2a"
+    },
+    {
+      "id": "136",
+      "name": "Sunrise",
+      "code": "AD40",
+      "family": "Exterior (Platina+Defender)",
+      "r": 232,
+      "g": 109,
+      "b": 48,
+      "hex": "#e86d30"
+    },
+    {
+      "id": "137",
+      "name": "Ra Gold",
+      "code": "AD41",
+      "family": "Exterior (Platina+Defender)",
+      "r": 224,
+      "g": 168,
+      "b": 104,
+      "hex": "#e0a868"
+    },
+    {
+      "id": "138",
+      "name": "Daffodil",
+      "code": "AD42",
+      "family": "Exterior (Platina+Defender)",
+      "r": 151,
+      "g": 199,
+      "b": 131,
+      "hex": "#97c783"
+    },
+    {
+      "id": "139",
+      "name": "Lemon Suoffle",
+      "code": "AD43",
+      "family": "Exterior (Platina+Defender)",
+      "r": 181,
+      "g": 197,
+      "b": 7,
+      "hex": "#b5c507"
+    },
+    {
+      "id": "140",
+      "name": "Pastel Green",
+      "code": "AD44",
+      "family": "Exterior (Platina+Defender)",
+      "r": 127,
+      "g": 160,
+      "b": 137,
+      "hex": "#7fa089"
+    },
+    {
+      "id": "141",
+      "name": "Moss Green",
+      "code": "AD45",
+      "family": "Exterior (Platina+Defender)",
+      "r": 175,
+      "g": 177,
+      "b": 145,
+      "hex": "#afb191"
+    },
+    {
+      "id": "142",
+      "name": "Green Gold",
+      "code": "AD46",
+      "family": "Exterior (Platina+Defender)",
+      "r": 137,
+      "g": 136,
+      "b": 105,
+      "hex": "#898869"
+    },
+    {
+      "id": "143",
+      "name": "Grass Green",
+      "code": "AD47",
+      "family": "Exterior (Platina+Defender)",
+      "r": 124,
+      "g": 197,
+      "b": 115,
+      "hex": "#7cc573"
+    },
+    {
+      "id": "144",
+      "name": "Jewel Green",
+      "code": "AD48",
+      "family": "Exterior (Platina+Defender)",
+      "r": 50,
+      "g": 137,
+      "b": 74,
+      "hex": "#32894a"
+    },
+    {
+      "id": "145",
+      "name": "Marsh Green",
+      "code": "AD49",
+      "family": "Exterior (Platina+Defender)",
+      "r": 115,
+      "g": 149,
+      "b": 112,
+      "hex": "#739570"
+    },
+    {
+      "id": "146",
+      "name": "Deep Olive",
+      "code": "AD50",
+      "family": "Exterior (Platina+Defender)",
+      "r": 35,
+      "g": 162,
+      "b": 136,
+      "hex": "#23a288"
+    },
+    {
+      "id": "147",
+      "name": "Paddy Field",
+      "code": "AD51",
+      "family": "Exterior (Platina+Defender)",
+      "r": 193,
+      "g": 228,
+      "b": 211,
+      "hex": "#c1e4d3"
+    },
+    {
+      "id": "148",
+      "name": "Valley Green",
+      "code": "AD52",
+      "family": "Exterior (Platina+Defender)",
+      "r": 73,
+      "g": 185,
+      "b": 177,
+      "hex": "#49b9b1"
+    },
+    {
+      "id": "149",
+      "name": "Lavise Lime",
+      "code": "AD53",
+      "family": "Exterior (Platina+Defender)",
+      "r": 75,
+      "g": 177,
+      "b": 95,
+      "hex": "#4bb15f"
+    },
+    {
+      "id": "150",
+      "name": "Flag Green",
+      "code": "AD54",
+      "family": "Exterior (Platina+Defender)",
+      "r": 41,
+      "g": 129,
+      "b": 92,
+      "hex": "#29815c"
+    },
+    {
+      "id": "151",
+      "name": "Rhine Blue",
+      "code": "AD55",
+      "family": "Exterior (Platina+Defender)",
+      "r": 144,
+      "g": 196,
+      "b": 210,
+      "hex": "#90c4d2"
+    },
+    {
+      "id": "152",
+      "name": "Icy Blue",
+      "code": "AD56",
+      "family": "Exterior (Platina+Defender)",
+      "r": 141,
+      "g": 197,
+      "b": 203,
+      "hex": "#8dc5cb"
+    },
+    {
+      "id": "153",
+      "name": "Satin Blue",
+      "code": "AD57",
+      "family": "Exterior (Platina+Defender)",
+      "r": 133,
+      "g": 188,
+      "b": 197,
+      "hex": "#85bcc5"
+    },
+    {
+      "id": "154",
+      "name": "Ocean Blue",
+      "code": "AD58",
+      "family": "Exterior (Platina+Defender)",
+      "r": 152,
+      "g": 211,
+      "b": 231,
+      "hex": "#98d3e7"
+    },
+    {
+      "id": "155",
+      "name": "Blue Flame",
+      "code": "AD59",
+      "family": "Exterior (Platina+Defender)",
+      "r": 152,
+      "g": 180,
+      "b": 198,
+      "hex": "#98b4c6"
+    },
+    {
+      "id": "156",
+      "name": "Wedgwood",
+      "code": "AD60",
+      "family": "Exterior (Platina+Defender)",
+      "r": 106,
+      "g": 140,
+      "b": 148,
+      "hex": "#6a8c94"
+    },
+    {
+      "id": "157",
+      "name": "Aqua Blue",
+      "code": "AD61",
+      "family": "Exterior (Platina+Defender)",
+      "r": 30,
+      "g": 120,
+      "b": 172,
+      "hex": "#1e78ac"
+    },
+    {
+      "id": "158",
+      "name": "Ice Blue",
+      "code": "AD62",
+      "family": "Exterior (Platina+Defender)",
+      "r": 205,
+      "g": 226,
+      "b": 240,
+      "hex": "#cde2f0"
+    },
+    {
+      "id": "159",
+      "name": "Water Blue",
+      "code": "AD63",
+      "family": "Exterior (Platina+Defender)",
+      "r": 0,
+      "g": 156,
+      "b": 185,
+      "hex": "#009cb9"
+    },
+    {
+      "id": "160",
+      "name": "Cerulean",
+      "code": "AD64",
+      "family": "Exterior (Platina+Defender)",
+      "r": 98,
+      "g": 172,
+      "b": 203,
+      "hex": "#62accb"
+    },
+    {
+      "id": "161",
+      "name": "Horizon Blue",
+      "code": "AD65",
+      "family": "Exterior (Platina+Defender)",
+      "r": 139,
+      "g": 177,
+      "b": 204,
+      "hex": "#8bb1cc"
+    },
+    {
+      "id": "162",
+      "name": "Ocean Cruise",
+      "code": "AD66",
+      "family": "Exterior (Platina+Defender)",
+      "r": 80,
+      "g": 186,
+      "b": 179,
+      "hex": "#50bab3"
+    },
+    {
+      "id": "163",
+      "name": "Turkish Tile",
+      "code": "AD67",
+      "family": "Exterior (Platina+Defender)",
+      "r": 45,
+      "g": 155,
+      "b": 159,
+      "hex": "#2d9b9f"
+    },
+    {
+      "id": "164",
+      "name": "Secrets",
+      "code": "AD68",
+      "family": "Exterior (Platina+Defender)",
+      "r": 84,
+      "g": 112,
+      "b": 132,
+      "hex": "#547084"
+    },
+    {
+      "id": "165",
+      "name": "Blushing Blue",
+      "code": "AD69",
+      "family": "Exterior (Platina+Defender)",
+      "r": 126,
+      "g": 178,
+      "b": 197,
+      "hex": "#7eb2c5"
+    },
+    {
+      "id": "166",
+      "name": "Olympia",
+      "code": "AD70",
+      "family": "Exterior (Platina+Defender)",
+      "r": 124,
+      "g": 121,
+      "b": 160,
+      "hex": "#7c79a0"
+    },
+    {
+      "id": "167",
+      "name": "Prophetic Purple",
+      "code": "AD71",
+      "family": "Exterior (Platina+Defender)",
+      "r": 124,
+      "g": 121,
+      "b": 160,
+      "hex": "#7c79a0"
+    },
+    {
+      "id": "168",
+      "name": "Strawberry",
+      "code": "AD72",
+      "family": "Exterior (Platina+Defender)",
+      "r": 181,
+      "g": 116,
+      "b": 161,
+      "hex": "#b574a1"
+    },
+    {
+      "id": "169",
+      "name": "Mauve",
+      "code": "AD73",
+      "family": "Exterior (Platina+Defender)",
+      "r": 191,
+      "g": 122,
+      "b": 159,
+      "hex": "#bf7a9f"
+    },
+    {
+      "id": "170",
+      "name": "Flo-Jio",
+      "code": "AD74",
+      "family": "Exterior (Platina+Defender)",
+      "r": 160,
+      "g": 120,
+      "b": 162,
+      "hex": "#a078a2"
+    },
+    {
+      "id": "171",
+      "name": "Burple",
+      "code": "AD75",
+      "family": "Exterior (Platina+Defender)",
+      "r": 157,
+      "g": 179,
+      "b": 206,
+      "hex": "#9db3ce"
+    },
+    {
+      "id": "172",
+      "name": "Virginia Bluebell",
+      "code": "AD76",
+      "family": "Exterior (Platina+Defender)",
+      "r": 113,
+      "g": 143,
+      "b": 181,
+      "hex": "#718fb5"
+    },
+    {
+      "id": "173",
+      "name": "Bright Grey",
+      "code": "AD77",
+      "family": "Exterior (Platina+Defender)",
+      "r": 170,
+      "g": 174,
+      "b": 178,
+      "hex": "#aaaeb2"
+    },
+    {
+      "id": "174",
+      "name": "Light Peach",
+      "code": "AD78",
+      "family": "Exterior (Platina+Defender)",
+      "r": 145,
+      "g": 157,
+      "b": 150,
+      "hex": "#919d96"
+    },
+    {
+      "id": "175",
+      "name": "Silver Grey",
+      "code": "AD79",
+      "family": "Exterior (Platina+Defender)",
+      "r": 184,
+      "g": 179,
+      "b": 160,
+      "hex": "#b8b3a0"
+    },
+    {
+      "id": "176",
+      "name": "French Grey",
+      "code": "AD80",
+      "family": "Exterior (Platina+Defender)",
+      "r": 174,
+      "g": 174,
+      "b": 179,
+      "hex": "#aeaeb3"
+    },
+    {
+      "id": "177",
+      "name": "Tiara",
+      "code": "AD81",
+      "family": "Exterior (Platina+Defender)",
+      "r": 199,
+      "g": 203,
+      "b": 204,
+      "hex": "#c7cbcc"
+    },
+    {
+      "id": "178",
+      "name": "Cement Grey",
+      "code": "AD82",
+      "family": "Exterior (Platina+Defender)",
+      "r": 179,
+      "g": 179,
+      "b": 176,
+      "hex": "#b3b3b0"
+    },
+    {
+      "id": "179",
+      "name": "Armour",
+      "code": "AD83",
+      "family": "Exterior (Platina+Defender)",
+      "r": 156,
+      "g": 173,
+      "b": 186,
+      "hex": "#9cadba"
+    },
+    {
+      "id": "180",
+      "name": "Platinum Grey",
+      "code": "AD84",
+      "family": "Exterior (Platina+Defender)",
+      "r": 182,
+      "g": 181,
+      "b": 176,
+      "hex": "#b6b5b0"
+    },
+    {
+      "id": "181",
+      "name": "Marshy Grey",
+      "code": "AD85",
+      "family": "Exterior (Platina+Defender)",
+      "r": 189,
+      "g": 195,
+      "b": 193,
+      "hex": "#bdc3c1"
+    },
+    {
+      "id": "182",
+      "name": "Smoke Grey",
+      "code": "AD86",
+      "family": "Exterior (Platina+Defender)",
+      "r": 140,
+      "g": 158,
+      "b": 152,
+      "hex": "#8c9e98"
+    },
+    {
+      "id": "183",
+      "name": "Steel Grey",
+      "code": "AD87",
+      "family": "Exterior (Platina+Defender)",
+      "r": 123,
+      "g": 143,
+      "b": 160,
+      "hex": "#7b8fa0"
+    },
+    {
+      "id": "184",
+      "name": "Denim",
+      "code": "AD88",
+      "family": "Exterior (Platina+Defender)",
+      "r": 137,
+      "g": 151,
+      "b": 157,
+      "hex": "#89979d"
+    },
+    {
+      "id": "185",
+      "name": "Moon Dance",
+      "code": "AD89",
+      "family": "Exterior (Platina+Defender)",
+      "r": 128,
+      "g": 144,
+      "b": 152,
+      "hex": "#809098"
+    },
+    {
+      "id": "186",
+      "name": "Black",
+      "code": "AD90",
+      "family": "Exterior (Platina+Defender)",
+      "r": 67,
+      "g": 69,
+      "b": 61,
+      "hex": "#43453d"
+    },
+    {
+      "id": "286",
+      "name": "Brilliant White",
+      "code": "OS01",
+      "family": "Exterior (Outersheild)",
+      "r": 240,
+      "g": 244,
+      "b": 240,
+      "hex": "#f0f4f0"
+    },
+    {
+      "id": "287",
+      "name": "Off White",
+      "code": "OS02",
+      "family": "Exterior (Outersheild)",
+      "r": 228,
+      "g": 218,
+      "b": 189,
+      "hex": "#e4dabd"
+    },
+    {
+      "id": "288",
+      "name": "Coral Shell",
+      "code": "OS03",
+      "family": "Exterior (Outersheild)",
+      "r": 228,
+      "g": 220,
+      "b": 194,
+      "hex": "#e4dcc2"
+    },
+    {
+      "id": "289",
+      "name": "Pearl",
+      "code": "OS04",
+      "family": "Exterior (Outersheild)",
+      "r": 225,
+      "g": 202,
+      "b": 174,
+      "hex": "#e1caae"
+    },
+    {
+      "id": "290",
+      "name": "Misty",
+      "code": "OS05",
+      "family": "Exterior (Outersheild)",
+      "r": 188,
+      "g": 179,
+      "b": 158,
+      "hex": "#bcb39e"
+    },
+    {
+      "id": "291",
+      "name": "Pale Mashrom",
+      "code": "OS06",
+      "family": "Exterior (Outersheild)",
+      "r": 203,
+      "g": 190,
+      "b": 168,
+      "hex": "#cbbea8"
+    },
+    {
+      "id": "292",
+      "name": "Magnolia",
+      "code": "OS07",
+      "family": "Exterior (Outersheild)",
+      "r": 238,
+      "g": 204,
+      "b": 167,
+      "hex": "#eecca7"
+    },
+    {
+      "id": "293",
+      "name": "Ivory",
+      "code": "OS08",
+      "family": "Exterior (Outersheild)",
+      "r": 237,
+      "g": 205,
+      "b": 159,
+      "hex": "#edcd9f"
+    },
+    {
+      "id": "294",
+      "name": "Cream",
+      "code": "OS09",
+      "family": "Exterior (Outersheild)",
+      "r": 211,
+      "g": 189,
+      "b": 110,
+      "hex": "#d3bd6e"
+    },
+    {
+      "id": "295",
+      "name": "Melba",
+      "code": "OS10",
+      "family": "Exterior (Outersheild)",
+      "r": 214,
+      "g": 177,
+      "b": 146,
+      "hex": "#d6b192"
+    },
+    {
+      "id": "296",
+      "name": "Old Gold",
+      "code": "OS11",
+      "family": "Exterior (Outersheild)",
+      "r": 184,
+      "g": 187,
+      "b": 108,
+      "hex": "#b8bb6c"
+    },
+    {
+      "id": "297",
+      "name": "Copper Leaf",
+      "code": "OS12",
+      "family": "Exterior (Outersheild)",
+      "r": 178,
+      "g": 113,
+      "b": 103,
+      "hex": "#b27167"
+    },
+    {
+      "id": "298",
+      "name": "Pink",
+      "code": "OS13",
+      "family": "Exterior (Outersheild)",
+      "r": 230,
+      "g": 157,
+      "b": 139,
+      "hex": "#e69d8b"
+    },
+    {
+      "id": "299",
+      "name": "Flamingo",
+      "code": "OS14",
+      "family": "Exterior (Outersheild)",
+      "r": 223,
+      "g": 170,
+      "b": 178,
+      "hex": "#dfaab2"
+    },
+    {
+      "id": "300",
+      "name": "Falsetto",
+      "code": "OS15",
+      "family": "Exterior (Outersheild)",
+      "r": 204,
+      "g": 122,
+      "b": 158,
+      "hex": "#cc7a9e"
+    },
+    {
+      "id": "301",
+      "name": "Taffy",
+      "code": "OS16",
+      "family": "Exterior (Outersheild)",
+      "r": 230,
+      "g": 117,
+      "b": 142,
+      "hex": "#e6758e"
+    },
+    {
+      "id": "302",
+      "name": "Queen Pink",
+      "code": "OS17",
+      "family": "Exterior (Outersheild)",
+      "r": 231,
+      "g": 116,
+      "b": 133,
+      "hex": "#e77485"
+    },
+    {
+      "id": "303",
+      "name": "Tangarine",
+      "code": "OS18",
+      "family": "Exterior (Outersheild)",
+      "r": 179,
+      "g": 124,
+      "b": 111,
+      "hex": "#b37c6f"
+    },
+    {
+      "id": "304",
+      "name": "Mushroom",
+      "code": "OS19",
+      "family": "Exterior (Outersheild)",
+      "r": 176,
+      "g": 145,
+      "b": 123,
+      "hex": "#b0917b"
+    },
+    {
+      "id": "305",
+      "name": "Amber",
+      "code": "OS20",
+      "family": "Exterior (Outersheild)",
+      "r": 187,
+      "g": 128,
+      "b": 104,
+      "hex": "#bb8068"
+    },
+    {
+      "id": "306",
+      "name": "Dark Mikado",
+      "code": "OS21",
+      "family": "Exterior (Outersheild)",
+      "r": 196,
+      "g": 151,
+      "b": 137,
+      "hex": "#c49789"
+    },
+    {
+      "id": "307",
+      "name": "Brick Red",
+      "code": "OS22",
+      "family": "Exterior (Outersheild)",
+      "r": 149,
+      "g": 95,
+      "b": 91,
+      "hex": "#955f5b"
+    },
+    {
+      "id": "308",
+      "name": "Black Coffee",
+      "code": "OS23",
+      "family": "Exterior (Outersheild)",
+      "r": 44,
+      "g": 12,
+      "b": 26,
+      "hex": "#2c0c1a"
+    },
+    {
+      "id": "309",
+      "name": "Signal Red",
+      "code": "OS24",
+      "family": "Exterior (Outersheild)",
+      "r": 196,
+      "g": 30,
+      "b": 58,
+      "hex": "#c41e3a"
+    },
+    {
+      "id": "310",
+      "name": "Ming Red",
+      "code": "OS25",
+      "family": "Exterior (Outersheild)",
+      "r": 152,
+      "g": 90,
+      "b": 82,
+      "hex": "#985a52"
+    },
+    {
+      "id": "311",
+      "name": "Sporty Yellow",
+      "code": "OS26",
+      "family": "Exterior (Outersheild)",
+      "r": 249,
+      "g": 197,
+      "b": 23,
+      "hex": "#f9c517"
+    },
+    {
+      "id": "312",
+      "name": "Sunrise",
+      "code": "OS27",
+      "family": "Exterior (Outersheild)",
+      "r": 232,
+      "g": 109,
+      "b": 48,
+      "hex": "#e86d30"
+    },
+    {
+      "id": "313",
+      "name": "Orange Crush",
+      "code": "OS28",
+      "family": "Exterior (Outersheild)",
+      "r": 249,
+      "g": 170,
+      "b": 42,
+      "hex": "#f9aa2a"
+    },
+    {
+      "id": "314",
+      "name": "Ra Gold",
+      "code": "OS29",
+      "family": "Exterior (Outersheild)",
+      "r": 224,
+      "g": 168,
+      "b": 104,
+      "hex": "#e0a868"
+    },
+    {
+      "id": "315",
+      "name": "Partel Green",
+      "code": "OS30",
+      "family": "Exterior (Outersheild)",
+      "r": 171,
+      "g": 179,
+      "b": 147,
+      "hex": "#abb393"
+    },
+    {
+      "id": "316",
+      "name": "Moss Green",
+      "code": "OS31",
+      "family": "Exterior (Outersheild)",
+      "r": 175,
+      "g": 177,
+      "b": 145,
+      "hex": "#afb191"
+    },
+    {
+      "id": "317",
+      "name": "Green Gold",
+      "code": "OS32",
+      "family": "Exterior (Outersheild)",
+      "r": 137,
+      "g": 136,
+      "b": 105,
+      "hex": "#898869"
+    },
+    {
+      "id": "318",
+      "name": "Garden Green",
+      "code": "OS33",
+      "family": "Exterior (Outersheild)",
+      "r": 179,
+      "g": 210,
+      "b": 143,
+      "hex": "#b3d28f"
+    },
+    {
+      "id": "319",
+      "name": "Jewel Green",
+      "code": "OS34",
+      "family": "Exterior (Outersheild)",
+      "r": 94,
+      "g": 168,
+      "b": 113,
+      "hex": "#5ea871"
+    },
+    {
+      "id": "320",
+      "name": "Aqua Green",
+      "code": "OS35",
+      "family": "Exterior (Outersheild)",
+      "r": 35,
+      "g": 162,
+      "b": 136,
+      "hex": "#23a288"
+    },
+    {
+      "id": "321",
+      "name": "Lemon Suoffle",
+      "code": "OS36",
+      "family": "Exterior (Outersheild)",
+      "r": 205,
+      "g": 200,
+      "b": 72,
+      "hex": "#cdc848"
+    },
+    {
+      "id": "322",
+      "name": "Paddy Field",
+      "code": "OS37",
+      "family": "Exterior (Outersheild)",
+      "r": 193,
+      "g": 228,
+      "b": 211,
+      "hex": "#c1e4d3"
+    },
+    {
+      "id": "323",
+      "name": "Valley Green",
+      "code": "OS38",
+      "family": "Exterior (Outersheild)",
+      "r": 73,
+      "g": 185,
+      "b": 177,
+      "hex": "#49b9b1"
+    },
+    {
+      "id": "324",
+      "name": "Lavise Lime",
+      "code": "OS39",
+      "family": "Exterior (Outersheild)",
+      "r": 135,
+      "g": 177,
+      "b": 95,
+      "hex": "#87b15f"
+    },
+    {
+      "id": "325",
+      "name": "Rhine Blue",
+      "code": "OS40",
+      "family": "Exterior (Outersheild)",
+      "r": 163,
+      "g": 200,
+      "b": 202,
+      "hex": "#a3c8ca"
+    },
+    {
+      "id": "326",
+      "name": "Satin Blue",
+      "code": "OS41",
+      "family": "Exterior (Outersheild)",
+      "r": 133,
+      "g": 188,
+      "b": 197,
+      "hex": "#85bcc5"
+    },
+    {
+      "id": "327",
+      "name": "Ocean Blue",
+      "code": "OS42",
+      "family": "Exterior (Outersheild)",
+      "r": 176,
+      "g": 217,
+      "b": 225,
+      "hex": "#b0d9e1"
+    },
+    {
+      "id": "328",
+      "name": "Blue Flame",
+      "code": "OS43",
+      "family": "Exterior (Outersheild)",
+      "r": 152,
+      "g": 180,
+      "b": 198,
+      "hex": "#98b4c6"
+    },
+    {
+      "id": "329",
+      "name": "Wdgewood",
+      "code": "OS44",
+      "family": "Exterior (Outersheild)",
+      "r": 136,
+      "g": 157,
+      "b": 165,
+      "hex": "#889da5"
+    },
+    {
+      "id": "330",
+      "name": "Aqua Blue",
+      "code": "OS45",
+      "family": "Exterior (Outersheild)",
+      "r": 30,
+      "g": 120,
+      "b": 172,
+      "hex": "#1e78ac"
+    },
+    {
+      "id": "331",
+      "name": "Smart Blue",
+      "code": "OS46",
+      "family": "Exterior (Outersheild)",
+      "r": 134,
+      "g": 184,
+      "b": 198,
+      "hex": "#86b8c6"
+    },
+    {
+      "id": "332",
+      "name": "Water Blue",
+      "code": "OS47",
+      "family": "Exterior (Outersheild)",
+      "r": 0,
+      "g": 156,
+      "b": 185,
+      "hex": "#009cb9"
+    },
+    {
+      "id": "333",
+      "name": "Cerulean",
+      "code": "OS48",
+      "family": "Exterior (Outersheild)",
+      "r": 98,
+      "g": 172,
+      "b": 203,
+      "hex": "#62accb"
+    },
+    {
+      "id": "334",
+      "name": "Turkish Tile",
+      "code": "OS49",
+      "family": "Exterior (Outersheild)",
+      "r": 45,
+      "g": 155,
+      "b": 159,
+      "hex": "#2d9b9f"
+    },
+    {
+      "id": "335",
+      "name": "Secrets",
+      "code": "OS50",
+      "family": "Exterior (Outersheild)",
+      "r": 84,
+      "g": 112,
+      "b": 132,
+      "hex": "#547084"
+    },
+    {
+      "id": "336",
+      "name": "Olympia",
+      "code": "OS51",
+      "family": "Exterior (Outersheild)",
+      "r": 142,
+      "g": 141,
+      "b": 178,
+      "hex": "#8e8db2"
+    },
+    {
+      "id": "337",
+      "name": "Prophetic Purple",
+      "code": "OS52",
+      "family": "Exterior (Outersheild)",
+      "r": 124,
+      "g": 121,
+      "b": 160,
+      "hex": "#7c79a0"
+    },
+    {
+      "id": "338",
+      "name": "Strawberry",
+      "code": "OS53",
+      "family": "Exterior (Outersheild)",
+      "r": 181,
+      "g": 116,
+      "b": 161,
+      "hex": "#b574a1"
+    },
+    {
+      "id": "339",
+      "name": "Silver Grey",
+      "code": "OS54",
+      "family": "Exterior (Outersheild)",
+      "r": 184,
+      "g": 179,
+      "b": 160,
+      "hex": "#b8b3a0"
+    },
+    {
+      "id": "340",
+      "name": "French Grey",
+      "code": "OS55",
+      "family": "Exterior (Outersheild)",
+      "r": 174,
+      "g": 174,
+      "b": 179,
+      "hex": "#aeaeb3"
+    },
+    {
+      "id": "341",
+      "name": "Monsoon Skies",
+      "code": "OS56",
+      "family": "Exterior (Outersheild)",
+      "r": 197,
+      "g": 196,
+      "b": 189,
+      "hex": "#c5c4bd"
+    },
+    {
+      "id": "342",
+      "name": "Cement Grey",
+      "code": "OS57",
+      "family": "Exterior (Outersheild)",
+      "r": 179,
+      "g": 179,
+      "b": 176,
+      "hex": "#b3b3b0"
+    },
+    {
+      "id": "343",
+      "name": "Platinum Grey",
+      "code": "OS58",
+      "family": "Exterior (Outersheild)",
+      "r": 182,
+      "g": 181,
+      "b": 176,
+      "hex": "#b6b5b0"
+    },
+    {
+      "id": "344",
+      "name": "Marshy Grey",
+      "code": "OS59",
+      "family": "Exterior (Outersheild)",
+      "r": 189,
+      "g": 195,
+      "b": 193,
+      "hex": "#bdc3c1"
+    },
+    {
+      "id": "345",
+      "name": "Smoke Grey",
+      "code": "OS60",
+      "family": "Exterior (Outersheild)",
+      "r": 140,
+      "g": 158,
+      "b": 152,
+      "hex": "#8c9e98"
+    },
+    {
+      "id": "346",
+      "name": "Denim",
+      "code": "OS61",
+      "family": "Exterior (Outersheild)",
+      "r": 137,
+      "g": 151,
+      "b": 157,
+      "hex": "#89979d"
+    },
+    {
+      "id": "347",
+      "name": "Moon Dance",
+      "code": "OS62",
+      "family": "Exterior (Outersheild)",
+      "r": 128,
+      "g": 144,
+      "b": 152,
+      "hex": "#809098"
+    },
+    {
+      "id": "348",
+      "name": "Black",
+      "code": "OS63",
+      "family": "Exterior (Outersheild)",
+      "r": 67,
+      "g": 69,
+      "b": 61,
+      "hex": "#43453d"
+    }
+  ]
+}
